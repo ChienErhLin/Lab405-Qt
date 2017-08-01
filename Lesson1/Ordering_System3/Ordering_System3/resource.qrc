@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>Picture/Burger.png</file>
+        <file>Picture/logo.png</file>
+        <file>Picture/CocaCola.png</file>
+        <file>Picture/FrenchFries.png</file>
+        <file>Picture/Salad.png</file>
+        <file>Picture/Salmon.png</file>
+        <file>Picture/Steak.jpg</file>
+        <file>Picture/lamb.jpg</file>
+        <file>Picture/pasta.jpg</file>
+        <file>Picture/Risotto.jpg</file>
+        <file>Picture/Ball.jpg</file>
+        <file>Picture/Chicken.jpg</file>
+        <file>Picture/Onion.jpg</file>
+        <file>Picture/mushroom.jpg</file>
+        <file>Picture/bear.jpg</file>
+        <file>Picture/coffee.jpg</file>
+        <file>Picture/milktea.jpg</file>
+        <file>Picture/salad1.jpg</file>
+        <file>Picture/salad2.jpg</file>
+        <file>Picture/salad3.jpg</file>
+        <file>Picture/salad4.jpg</file>
+        <file>Picture/salad5.jpg</file>
+        <file>Picture/salad6.jpg</file>
+        <file>Picture/sprite.jpg</file>
+        <file>Picture/squid.jpg</file>
+        <file>Picture/tea.jpg</file>
+    </qresource>
+</RCC>
