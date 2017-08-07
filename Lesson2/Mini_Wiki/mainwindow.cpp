@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent) :
     this->setWindowTitle("NTU Fodd Map");
     ui->label_title->setText("NTU Food Map");
     ui->label_Info->setText(tr(""));
-    QPixmap back("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/ntumap.png");
+    QPixmap back("E:/cel/Qt/Mini_Wiki/ntumap.png");
     ui->label_background->setPixmap(back.scaled(ui->label_background->width(),ui->label_background->height(),Qt::KeepAspectRatio));
     ui->label_Image->setVisible(false);
     ui->textEdit->setVisible(false);
@@ -79,45 +79,45 @@ void MainWindow::basic_step(QPixmap img, QString TextPath)
 void MainWindow::on_pushButton_1_clicked()
 {
     //image path
-    QPixmap img("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/img1.jpg");
+    QPixmap img("E:/cel/Qt/Mini_Wiki/img1.jpg");
     //text path
-    QString TextPath("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/text1.txt");
+    QString TextPath("E:/cel/Qt/Mini_Wiki/text1.txt");
     basic_step(img, TextPath);
 }
 
 void MainWindow::on_pushButton_2_clicked()
 {
     //image path
-    QPixmap img("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/img2.jpg");
+    QPixmap img("E:/cel/Qt/Mini_Wiki/img2.jpg");
     //text path
-    QString TextPath("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/text2.txt");
+    QString TextPath("E:/cel/Qt/Mini_Wiki/text2.txt");
     basic_step(img, TextPath);
 }
 
 void MainWindow::on_pushButton_3_clicked()
 {
     //image path
-    QPixmap img("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/img3.jpg");
+    QPixmap img("E:/cel/Qt/Mini_Wiki/img3.jpg");
     //text path
-    QString TextPath("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/text3.txt");
+    QString TextPath("E:/cel/Qt/Mini_Wiki/text3.txt");
     basic_step(img, TextPath);
 }
 
 void MainWindow::on_pushButton_4_clicked()
 {
     //image path
-    QPixmap img("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/img4.jpg");
+    QPixmap img("E:/cel/Qt/Mini_Wiki/img4.jpg");
     //text path
-    QString TextPath("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/text4.txt");
+    QString TextPath("E:/cel/Qt/Mini_Wiki/text4.txt");
     basic_step(img, TextPath);
 }
 
 void MainWindow::on_pushButton_5_clicked()
 {
     //image path
-    QPixmap img("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/img5.jpg");
+    QPixmap img("E:/cel/Qt/Mini_Wiki/img5.jpg");
     //text path
-    QString TextPath("C:/Users/admin/Desktop/cel/Qt/Mini_Wiki/text5.txt");
+    QString TextPath("E:/cel/Qt/Mini_Wiki/text5.txt");
     basic_step(img, TextPath);
 }
 
